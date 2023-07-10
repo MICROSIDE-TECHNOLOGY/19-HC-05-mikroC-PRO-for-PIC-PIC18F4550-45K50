@@ -1,0 +1,8 @@
+main
+	SisInit
+	UART1_Init
+	UART_Data_Ready
+		____DoIFC
+	UART_Read
+		____DoIFC
+	UART1_Write
